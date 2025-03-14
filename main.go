@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "nlto/cmd"
 
 func main() {
-	fmt.Println("Hello, World!")
+	cmd.Execute()
 }
