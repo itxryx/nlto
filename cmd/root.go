@@ -35,9 +35,9 @@ func Execute() {
 	fmt.Print("\033[H\033[2J")
 
 	if dangerLevelNum > 7 {
-		fmt.Println(ui.Red + "☠️   generated: " + command + ui.Reset)
+		fmt.Println(ui.Red + "☠️   Generated: " + command + ui.Reset)
 	} else {
-		fmt.Println(ui.Cyan + "🤖  generated: " + command + ui.Reset)
+		fmt.Println(ui.Cyan + "🤖  Generated: " + command + ui.Reset)
 	}
 	fmt.Println(ui.Blue + "📖  " + explanation + ui.Reset)
 
